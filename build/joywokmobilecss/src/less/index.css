@@ -1,0 +1,76 @@
+#root {
+  height: 100%;
+}
+.null {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+}
+.ant-radio-button-wrapper {
+  color: #494949;
+  font-size: 12px;
+  background: #f0f0f0;
+}
+.my-drawer {
+  position: relative;
+  overflow: auto;
+}
+.my-drawer.am-drawer-open {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 45px;
+}
+.my-drawer.am-drawer-open .am-drawer-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.my-drawer.am-drawer-open .am-drawer-content {
+  display: none;
+}
+.my-drawer .am-drawer-sidebar {
+  max-width: 4.6rem;
+  background-color: #fff;
+  overflow: auto;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  padding: 0;
+}
+.btn.am-button {
+  color: #777;
+  height: 0.9rem !important;
+  line-height: 0.9rem!important;
+}
+.btn.am-button.am-button-primary {
+  background: #157efb;
+}
+.btn.am-button.am-button-primary {
+  color: #fff;
+  background: #157efb;
+}
+.btn.am-button.am-button-primary.am-button-active {
+  background: #046dea;
+}
+.btn.assertive.am-button.am-button-active {
+  background: #df322b;
+}
+.btn.assertive.am-button {
+  color: #fff;
+  background: #eb413d;
+}
+.btn.am-button.am-button-dsabled {
+  background: #b0b0b0;
+}
+.btn.energized.am-button {
+  color: #fff;
+  background: #f2bb16;
+}
+.btn.energized.am-button.am-button-active {
+  background: #dda80a;
+}
+.cardwrap {
+  background: #0ab771;
+}

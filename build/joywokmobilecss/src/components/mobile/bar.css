@@ -1,0 +1,30 @@
+.mydrawer{
+	background: #f0f0f0;
+}
+p {
+    font-size: 12px;
+}
+
+
+
+
+.am-search .am-search-input {
+	height: 0.66rem;
+	line-height: 0.66rem;
+}
+.am-search .am-search-input .am-search-value{
+	height: 0.66rem;
+	line-height: 0.66rem;
+}
+.am-search .am-search-input .am-search-synthetic-ph{
+	height: 0.66rem;
+	line-height: 0.66rem;
+}
+.am-search.am-search-start .am-search-value{
+    color: #333!important;
+}
+
+.am-search-cancel{
+	cursor: pointer;
+	color: #00a8f7!important;
+}

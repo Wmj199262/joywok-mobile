@@ -1,0 +1,154 @@
+.am-notice-bar-content a {
+    display: block;
+}
+
+.buttonItem {
+    margin-top: 10px;
+}
+
+.tabscontent {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #f5f5f5;
+}
+
+.am-tab-bar.am-tab-bar-bottom {
+    height: 100%;
+}
+
+.drawer-w .am-list a {
+    display: block;
+    color: #999;
+    font-weight: inherit;
+}
+
+.drawer-w .am-list .am-list-body .am-list-item .am-list-item-middle {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.am-accordion {
+    border-top: none;
+    margin-top: 80px;
+}
+
+.am-accordion-item {
+    padding: 20px 0;
+    background: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.am-accordion .am-accordion-item .am-accordion-header:after {
+    border-bottom: none;
+}
+
+.am-accordion.my-accordion .am-list-content a {
+    font-family: Arial;
+    color: #666;
+    display: block;
+    cursor: pointer;
+    font-weight: initial;
+}
+.am-accordion.my-accordion .am-list-item.am-list-item-middle:after{
+    margin:0 15px;
+     display: block;
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    width: 100%;
+    border-bottom: 1PX solid #ddd;
+}
+.example .bar {
+/*    position: absolute;
+*/    top: 0;
+    right: 0;
+    left: 0;
+    height: 45px;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.example .bar-header {
+    top: 0;
+    border-top: none;
+    margin-bottom: 30px;
+}
+
+.example .bar .bar-w {
+    padding: 0 10px;
+}
+
+.bar h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333;
+    font-weight: inherit;
+        font-family: Arial;
+}
+
+.example .ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    /* word-wrap: break-word; */
+    -moz-binding: url(ellipsis.xml#ellipsis);
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.example .bar button.right {
+    float: right;
+    margin: 0 0 0 5px;
+}
+
+.example .bar button {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    width: auto;
+    min-width: 52px;
+    float: left;
+    margin: 0 5px 0 0;
+    display: inline-block;
+    border-radius: 0;
+    padding: 0 8px;
+    min-width: initial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 45px;
+    border: none;
+    font-size: 14px;
+    vertical-align: middle;
+    background: none;
+}
+
+.example .btn {
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #dddddd;
+    padding: 0 20px;
+    line-height: 45px;
+    background: #fff;
+    color: #777777;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+}

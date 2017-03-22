@@ -1,0 +1,51 @@
+{
+  "private": true,
+  "entry": {
+    "index": "./src/index.js"
+  },
+  "dependencies": {
+    "antd": "^2.0.1",
+    "antd-mobile": "^0.9.13",
+    "antd-mobile-demo-data": "^0.1.3",
+    "chart.js": "^2.4.0",
+    "dora-plugin-browser-history": "^0.2.0",
+     "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.0",
+    "less": "^2.7.1",
+    "markdown": "^0.5.0",
+    "qs": "^6.2.0",
+     "react-chartjs": "^0.8.0",
+    "dva": "^1.2.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "atool-build": "^0.9.0",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-import": "^1.0.1",
+    "babel-plugin-dva-hmr": "^0.2.0",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-runtime": "^6.9.2",
+    "dora": "^0.4.3",
+    "dora-plugin-proxy": "^0.8.4",
+    "dora-plugin-webpack": "^0.8.1",
+    "dora-plugin-webpack-hmr": "^0.2.1",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-config-rackt": "^1.1.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.4.2",
+    "eslint-plugin-react": "^5.1.1",
+    "glob": "^7.0.5",
+    "mockjs": "^1.0.1-beta2",
+    "expect": "^1.20.2",
+    "redbox-react": "^1.3.2"
+  },
+  "scripts": {
+    "start": "dora --plugins \"proxy,webpack,webpack-hmr,browser-history?index=/src/index.html\"",
+    "build": "atool-build",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  }
+}
