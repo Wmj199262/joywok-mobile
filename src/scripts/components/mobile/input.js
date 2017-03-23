@@ -24,6 +24,12 @@ let InputExample = React.createClass({
        </div>
      </div>
      <List>
+       <InputItem
+            className="jw-inline"
+          {...getFieldProps('autofocus')}
+          clear
+          placeholder="自动获取光标"
+        >标题</InputItem>
       <InputItem
         placeholder="请输入"
         data-seed="logId"

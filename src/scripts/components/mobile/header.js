@@ -43,8 +43,8 @@ const navData=[{
       key:'datepicker', 
        path:'/mobile/datepicker',       
   },{
-      key:'switch',  
-       path:'/mobile/switch',      
+      key:'toggle',  
+       path:'/mobile/toggle',      
   },{
       key:'checkBox',  
       path:'/mobile/checkbox',      

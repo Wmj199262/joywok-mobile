@@ -50,7 +50,7 @@ module.exports = function({browserHistory}) {
       <Route path="/mobile/textarea" component={mobileTextarea} />
       <Route path="/mobile/select" component={mobileSelect} />
       <Route path="/mobile/datepicker" component={mobileDatepicker} />
-      <Route path="/mobile/switch" component={mobileSwitchDemo} />
+      <Route path="/mobile/toggle" component={mobileSwitchDemo} />
       <Route path="/mobile/checkbox" component={mobileCheckbox} />
       <Route path="/mobile/radio" component={mobileRadio} />
       <Route path="/mobile/search" component={mobileSearch} />

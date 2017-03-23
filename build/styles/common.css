@@ -50,6 +50,9 @@ body {
   top: 26px;
   right: 15px;
 }
+.am-accordion .am-accordion-item.accordion-nav .am-accordion-content .am-accordion-content-box .am-list .am-list-body .am-list-item {
+  padding: 0 15px !important;
+}
 .am-accordion .am-accordion-item.accordion-dataentry .am-accordion-header .arrow {
   background: url(../images/dataentry.png);
   width: 30px;
@@ -217,7 +220,7 @@ body {
 }
 
 .am-list .am-list-header {
-  padding: 0px 15px 15px;
+  padding: 0px 10px 15px;
   display: inherit;
   color: #333;
   font-weight: bold;

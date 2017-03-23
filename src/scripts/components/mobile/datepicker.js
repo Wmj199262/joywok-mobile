@@ -64,10 +64,10 @@ let Test = React.createClass({
           minDate={minDate}
           maxDate={maxDate}
         >
-          <Item arrow="horizontal" className="am-list-item-date" >日期</Item>
+          <Item arrow="horizontal" className="date-picker-default" >日期</Item>
         </DatePicker>
          <DatePicker mode="time" {...getFieldProps('time1')}>
-          <Item arrow="horizontal" className="am-list-item-date" style={{marginTop:'10px;'}}>时间</Item>
+          <Item arrow="horizontal" className="date-picker-default" style={{marginTop:'10px;'}}>时间</Item>
         </DatePicker>
         <DatePicker
           mode="time"
@@ -77,14 +77,14 @@ let Test = React.createClass({
           minDate={minTime}
           maxDate={maxTime}
         >
-          <Item arrow="horizontal" className="am-list-item-date" style={{marginTop:'10px;'}}>时间，限定上下限</Item>
+          <Item arrow="horizontal" className="date-picker-default" style={{marginTop:'10px;'}}>时间，限定上下限</Item>
         </DatePicker>
         <DatePicker className="forss"
           mode="datetime"
           onChange={this.onChange}
           value={this.state.date}
         >
-          <Item arrow="horizontal" className="am-list-item-date" style={{marginTop:'10px;'}}>日期+时间</Item>
+          <Item arrow="horizontal" className="date-picker-default" style={{marginTop:'10px;'}}>日期+时间</Item>
         </DatePicker>
         <DatePicker
           mode="time"
@@ -96,7 +96,37 @@ let Test = React.createClass({
             initialValue: gmtNow,
           })}
         >
-          <Item arrow="horizontal" className="am-list-item-date">time(en_US)</Item>
+          <Item arrow="horizontal" className="date-picker-default">time(en_US)</Item>
+        </DatePicker>
+        <DatePicker
+          mode="date"
+          title="选择日期"
+          extra="请选择日期"
+          {...getFieldProps('date1', {
+            initialValue: zhNow,
+          })}
+          minDate={minDate}
+          maxDate={maxDate}
+        >
+          <Item  className="date-picker-stacked" >选择日期</Item>
+        </DatePicker>
+         <DatePicker mode="time" extra="请选择时间" {...getFieldProps('time1')}>
+          <Item  className="date-picker-stacked" style={{marginTop:'10px;'}}>选择时间</Item>
+        </DatePicker>
+        <DatePicker
+          mode="date"
+          title="选择日期"
+          extra="可选,小于结束日期"
+          {...getFieldProps('date1', {
+            initialValue: zhNow,
+          })}
+          minDate={minDate}
+          maxDate={maxDate}
+        >
+          <Item  className="date-picker-inline" >选择日期</Item>
+        </DatePicker>
+         <DatePicker mode="time" extra="请选择时间" {...getFieldProps('time1')}>
+          <Item  className="date-picker-inline" style={{marginTop:'10px;'}}>选择时间</Item>
         </DatePicker>
       </List>
     </div>);

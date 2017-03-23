@@ -22,10 +22,11 @@ let SwitchExample = React.createClass({
           <h1 className="ellipsis">Switch</h1>                               
         </div>                                  
        </div>
-      <List
+      <List 
+        className="switch"
         renderHeader={() => '表单开关项'}
       >
-        <List.Item
+        <List.Item 
           extra={<Switch
             {...getFieldProps('Switch1', {
               initialValue: true,

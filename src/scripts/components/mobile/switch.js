@@ -20,13 +20,14 @@ let SwitchExample = React.createClass({
           <Link to="/">
             <button type="button" className="btn">返回</button>
           </Link>                                                                        
-          <h1 className="ellipsis">Switch</h1>                               
+          <h1 className="ellipsis">Toggle</h1>                               
         </div>                                  
        </div>
       <List
         renderHeader={() => '表单开关项'}
       >
         <List.Item
+          className="switch"
           extra={<Switch
             {...getFieldProps('Switch1', {
               initialValue: true,
@@ -35,6 +36,7 @@ let SwitchExample = React.createClass({
           />}
         >默认开</List.Item>
         <List.Item
+          className="switch"
           extra={<Switch
             {...getFieldProps('Switch2', {
               initialValue: false,
@@ -43,6 +45,7 @@ let SwitchExample = React.createClass({
           />}
         >默认关</List.Item>
         <List.Item
+          className="switch"
           extra={<Switch
             {...getFieldProps('Switch3', {
               initialValue: false,
@@ -52,6 +55,7 @@ let SwitchExample = React.createClass({
           />}
         >默认关不可修改</List.Item>
         <List.Item
+          className="switch"
           extra={<Switch
             {...getFieldProps('Switch4', {
               initialValue: true,

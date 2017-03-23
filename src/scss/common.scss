@@ -54,6 +54,13 @@ body{
              right: 15px;
           }
        }
+       .am-accordion-content {
+          .am-accordion-content-box{
+             .am-list .am-list-body .am-list-item{
+                padding:0 15px!important;
+             }
+          }
+       }
     }
     .am-accordion-item.accordion-dataentry{
         .am-accordion-header{
@@ -239,7 +246,7 @@ body{
 
 .am-list{
     .am-list-header{
-      padding: 0px 15px 15px;
+      padding: 0px 10px 15px;
       display:inherit;
       color:#333;
       font-weight:bold;
